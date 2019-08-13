@@ -1,7 +1,9 @@
+//Project images
 import DiversityHubProjectImg from '../assets/diversity-hub-screenshot.jpg';
 import ImgPlaceholder from '../assets/placeholder-square.jpg';
 import PeriodicTableImg from '../assets/periodic-table.jpg';
 
+//Icon images
 import GitHubIcon from '../assets/github-logo-icon.png';
 import YouTubeIcon from '../assets/youtube-logo-icon.png';
 
