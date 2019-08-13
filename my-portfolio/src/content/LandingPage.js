@@ -11,17 +11,19 @@ class LandingPage extends Component {
   render () {
     return ( 
       <div>
-        <NavBar />
-        <AboutMe className="landing-page--about-me"></AboutMe>
+        {/* <NavBar /> */}
+        <AboutMe className="landing-page--about-me" id="about-me"></AboutMe>
         {ProjectData.map(project => (
           <Projects 
+            id="projects"
             className="landing-page--project-card"
             title={project.title}
             description={project.description}
             img={project.img}
+            gitHubLink={project.gitHubLink}
           />
         ))}
-        <ContactMe />
+        <ContactMe id="contact-me"/>
       </div>
     );
   }

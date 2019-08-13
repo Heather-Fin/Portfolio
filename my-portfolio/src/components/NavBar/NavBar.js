@@ -2,9 +2,9 @@ import React from 'react';
 
 const NavBar = () => (
   <div className="navbar">
-    <a href="#home">About Me</a>
+    <a href="#contact-me">Contact</a>
     <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <a href="#about-me">About Me</a>
   </div>
 );
 

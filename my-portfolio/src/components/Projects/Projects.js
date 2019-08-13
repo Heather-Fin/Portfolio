@@ -8,7 +8,9 @@ class Projects extends Component {
           <img src={this.props.img} alt="Screengrab of project" className="projects--img" />
           <div className="projects--col">
             <h2 className="projects--h2">{this.props.title}</h2> 
-            <img src={GitHubIcon} alt="GitHub icon" className="projects--github-img"/>
+            <a href={this.props.gitHubLink} target="_blank">
+              <img src={GitHubIcon} alt="GitHubIcon" className="projects--github-img"/>
+            </a>
             <p className="projects--p">{this.props.description}</p>
           </div>
       </div>
