@@ -1,5 +1,5 @@
 .projects--img {
-    width: 200px;
+    width: 350px;
     height: 200px;
     padding-right: 30px;
 }
@@ -9,13 +9,23 @@
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
+    color: #1E2019;
 }
 
 .projects--h2 {
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
+    margin-bottom: 5px;
+    color: #1E2019;
+}
+
+.projects--h3 {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
     margin-bottom: 20px;
+    color: #1E2019;
 }
 
 .projects--card {

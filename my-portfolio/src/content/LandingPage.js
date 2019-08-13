@@ -19,6 +19,7 @@ class LandingPage extends Component {
             className="landing-page--project-card"
             title={project.title}
             description={project.description}
+            date={project.date}
             img={project.img}
             gitHubLink={project.gitHubLink}
           />

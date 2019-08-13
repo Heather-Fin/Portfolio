@@ -11,6 +11,7 @@ class Projects extends Component {
             <a href={this.props.gitHubLink} target="_blank">
               <img src={GitHubIcon} alt="GitHubIcon" className="projects--github-img"/>
             </a>
+            <h3 className="projects--h3">{this.props.date}</h3>
             <p className="projects--p">{this.props.description}</p>
           </div>
       </div>
