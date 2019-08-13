@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import NavBar from '../components/NavBar';
-import AboutMe from '../components/AboutMe/AboutMe';
+import Header from '../components/Header/Header';
 import Projects from '../components/Projects/Projects';
 import ContactMe from '../components/ContactMe/ContactMe';
 import SectionTitle from '../components/SectionTitle/SectionTitle';
@@ -13,7 +13,7 @@ class LandingPage extends Component {
     return ( 
       <div>
         {/* <NavBar /> */}
-        <AboutMe className="landing-page--about-me" id="about-me"></AboutMe>
+        <Header className="landing-page--about-me" id="about-me" />
         <SectionTitle title="Projects" />
         {ProjectData.map(project => (
           <Projects 
