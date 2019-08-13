@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import NavBar from '../components/NavBar';
 import Header from '../components/Header/Header';
+import AboutMe from '../components/AboutMe/AboutMe';
 import Projects from '../components/Projects/Projects';
 import ContactMe from '../components/ContactMe/ContactMe';
 import SectionTitle from '../components/SectionTitle/SectionTitle';
@@ -14,6 +15,8 @@ class LandingPage extends Component {
       <div>
         {/* <NavBar /> */}
         <Header className="landing-page--about-me" id="about-me" />
+        <SectionTitle title="About Me" />
+        <AboutMe />
         <SectionTitle title="Projects" />
         {ProjectData.map(project => (
           <Projects 
