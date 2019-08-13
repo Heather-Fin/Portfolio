@@ -21,7 +21,8 @@ class LandingPage extends Component {
             description={project.description}
             date={project.date}
             img={project.img}
-            gitHubLink={project.gitHubLink}
+            link={project.link}
+            icon={project.icon}
           />
         ))}
         <ContactMe id="contact-me"/>
