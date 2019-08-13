@@ -13,14 +13,17 @@
     align-items: center;
 }
 
+.contact-tile:hover {
+    .contact-tile--h3 {
+        filter: invert(72%) sepia(63%) saturate(1273%) hue-rotate(348deg) brightness(101%) contrast(87%);
+    } 
+    .conact-tile--img {
+        filter: invert(72%) sepia(63%) saturate(1273%) hue-rotate(348deg) brightness(101%) contrast(87%);
+    }
+}
+
 .contact-tile--h3 {
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     color: #1E2019;
-}
-
-
-.contact-tile--h3:hover {
-    color: #EFAD1F;
-    //background-color: #EFAD1F;
 }
