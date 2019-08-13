@@ -18,6 +18,7 @@ class LandingPage extends Component {
             className="landing-page--project-card"
             title={project.title}
             description={project.description}
+            img={project.img}
           />
         ))}
         <ContactMe />

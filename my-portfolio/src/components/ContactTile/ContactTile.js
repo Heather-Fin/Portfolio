@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PlaceHolderImg from '../../assets/placeholder-square.jpg';
 
 class ContactTile extends Component {
   render() {

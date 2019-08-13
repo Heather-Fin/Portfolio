@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu&display=swap');
+
 /* The navigation bar */
 .navbar {
     overflow: hidden;
     background-color: #EFAD1F;
-    position: fixed; /* Set the navbar to fixed position */
+    position: sticky; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    z-index: 9999;
+    font-family: 'Titillium Web', sans-serif;
 }
   
 /* Links inside the navbar */
