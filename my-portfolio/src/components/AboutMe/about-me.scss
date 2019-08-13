@@ -3,7 +3,7 @@
 .about-me {
     margin-top: 30px;
     padding-bottom: 100px;
-    background-image: linear-gradient(176deg, #E58F65 80%, #FFFFFF calc(80% + 2px)); 
+    background-image: linear-gradient(176deg, #EFAD1F 80%, #FFFFFF calc(80% + 2px)); 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -11,7 +11,8 @@
 }
 
 .about-me--portfolio-img {
-    padding-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 450px;
     border-radius: 50%;
 }
@@ -28,11 +29,11 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.about-me--content {
-    width: 30%;
-    padding-right: 5%;
+.about-me--h1-alt {
+    color: #587B7F;
 }
 
-.about-me--img {
-
+.about-me--content {
+    width: 50%;
+    padding-right: 20px;
 }
