@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu&display=swap');
+
 .about-me {
     margin-top: 30px;
     padding-bottom: 250px;
@@ -9,15 +11,21 @@
 }
 
 .about-me--portfolio-img {
+    padding-top: 20px;
     width: 450px;
+    border-radius: 50%;
 }
 
 .about-me--p {
-    color: #191919;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .about-me--h1 {
-    color: #191919;
+    color: #ffffff;
+    font-size: 42px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .about-me--content {
