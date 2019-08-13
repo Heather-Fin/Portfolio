@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import AboutMe from '../components/AboutMe/AboutMe';
 import Projects from '../components/Projects/Projects';
 import ContactMe from '../components/ContactMe/ContactMe';
+import SectionTitle from '../components/SectionTitle/SectionTitle';
 
 import ProjectData from '../data/ProjectContent';
 
@@ -13,6 +14,7 @@ class LandingPage extends Component {
       <div>
         {/* <NavBar /> */}
         <AboutMe className="landing-page--about-me" id="about-me"></AboutMe>
+        <SectionTitle title="Projects" />
         {ProjectData.map(project => (
           <Projects 
             id="projects"
@@ -25,6 +27,7 @@ class LandingPage extends Component {
             icon={project.icon}
           />
         ))}
+        <SectionTitle title="Conact Me" />
         <ContactMe id="contact-me"/>
       </div>
     );
