@@ -4,6 +4,8 @@ import AboutMe from '../components/AboutMe/AboutMe';
 import Projects from '../components/Projects/Projects';
 import ContactMe from '../components/ContactMe/ContactMe';
 
+import ProjectData from '../data/ProjectContent';
+
 class LandingPage extends Component {
 
   render () {
@@ -11,9 +13,13 @@ class LandingPage extends Component {
       <div>
         <NavBar />
         <AboutMe className="landing-page--about-me"></AboutMe>
-        <Projects />
-        <Projects />
-        <Projects />
+        {ProjectData.map(project => (
+          <Projects 
+            className="landing-page--project-card"
+            title={project.title}
+            description={project.description}
+          />
+        ))}
         <ContactMe />
       </div>
     );
