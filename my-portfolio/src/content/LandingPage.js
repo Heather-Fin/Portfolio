@@ -6,7 +6,7 @@ class LandingPage extends Component {
   render () {
     return ( 
       <div>
-        <AboutMe />
+        <AboutMe className="landing-page--about-me"></AboutMe>/>
       </div>
     );
   }
