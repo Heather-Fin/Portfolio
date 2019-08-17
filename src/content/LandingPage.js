@@ -14,6 +14,7 @@ class LandingPage extends Component {
     return ( 
       <div>
         {/* <NavBar /> */}
+        {/* blasfsudkhgheskgdnksg */}
         <Header className="landing-page--about-me" id="about-me" />
         <SectionTitle title="About Me" />
         <AboutMe />
