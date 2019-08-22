@@ -21,7 +21,7 @@ export default [
         //IBM Project
         title:"IBM Incubator Project",
         date: "June - August, 2019",
-        description:"While interning as a Front-End Developer at IBM, I was able to build out a prototype of my team's incubator project. Collaborating with our designers, I was able build out a functional prototype based on IBM's desgin guidelines. To do this, I utilized the React Carbon Components library as well as React, CSS, and HTML.",
+        description:"While interning as a Front-End Developer at IBM, I was able to build out a prototype of my team's incubator project. Collaborating with our designers, I built a functional prototype based on IBM's design guidelines. To do this, I utilized the React Carbon Components library as well as React, CSS, and HTML.",
         img: DiversityHubProjectImg,
         link: "https://github.com/Heather-Fin/Divergent-Prototype",
         icon: GitHubIcon,
@@ -30,7 +30,7 @@ export default [
         //VR Project
         title:"Virtual Reality Periodic Table",
         date: "January - May, 2019",
-        description:"I developed an interactive Periodic Table of Elements designed for learning about the elements and their atomic structures. Players can leverage in game quiz mechanics to improve their knowledge of the periodic table. In addition, a free-play mode is available which enables the user to freely build the first 10 elements in the periodic table.",
+        description:"For the HTC Vive, I developed a virtual reality interactive Periodic Table of Elements designed for learning about the elements and their atomic structures. Players can leverage in game quiz mechanics to improve their knowledge of the periodic table. In addition, a free-play mode is available which enables the user to freely build the first 10 elements in the periodic table.",
         img: PeriodicTableImg,
         link: "https://www.youtube.com/watch?v=rEt5OQfS6xY",
         icon: YouTubeIcon,
