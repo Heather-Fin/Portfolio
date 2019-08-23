@@ -14,7 +14,6 @@ class LandingPage extends Component {
     return ( 
       <div>
         {/* <NavBar /> */}
-        {/* blasfsudkhgheskgdnksg */}
         <Header className="landing-page--about-me" id="about-me" />
         <SectionTitle title="About Me" />
         <AboutMe />
@@ -31,7 +30,7 @@ class LandingPage extends Component {
             icon={project.icon}
           />
         ))}
-        <SectionTitle title="Conact Me" />
+        <SectionTitle title="Contact Me" />
         <ContactMe id="contact-me"/>
       </div>
     );

@@ -5,7 +5,6 @@
 }
 
 .projects--p {
-    width: 600px;
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
@@ -30,7 +29,8 @@
 
 .projects--card {
     display: flex;
-    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: 30px;
 }
 
