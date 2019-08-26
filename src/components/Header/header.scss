@@ -36,3 +36,22 @@
     width: 50%;
     padding-right: 20px;
 }
+
+@media screen and (max-width: 1182px) {
+    .header--portfolio-img {
+      width: 350px;
+    }
+    .header--content {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header--h1 {
+        font-size: 36px;
+    }
+    .header--content {
+        width: 60%;
+        padding-right: 0px;
+    }
+}
